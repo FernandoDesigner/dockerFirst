@@ -29,4 +29,4 @@ jobs:
     - name: Installing surge
       run: npm install --global surge
     - name: deploy to surge
-      run: surge ./dist https://heady-frog.surge.sh/ --token 4d483f4be6cf0cbde5ab9b5b92c54c81
+      run: surge ./dist ${{vars.SURGE_URL}} --token ${{secrets.SURGE_TOKEN}}

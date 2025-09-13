@@ -11,7 +11,7 @@ function PokemonsView() {
 
   return (
     <div style={{ padding: "2rem" }}>
-      <h1>Pokémones
+      <h1>Pokémones PRUEBA GITHUB 
       </h1>
       <Table data={data.pokemon_v2_pokemon} />
     </div>
