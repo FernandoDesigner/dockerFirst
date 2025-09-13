@@ -1,6 +1,6 @@
 import { useState, React } from 'react'
 import { GraphQLProvider, useGraphQL } from "./context/GraphQLContext";
-import Table from './components/table';
+import Table from './components/TableU'
 
 
 function PokemonsView() {
